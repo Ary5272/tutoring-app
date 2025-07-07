@@ -7,6 +7,9 @@
     "start": "node server.js",
     "postbuild": "node cloud-database-setup.js"
   },
+  "engines": {
+    "node": "20.x"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
